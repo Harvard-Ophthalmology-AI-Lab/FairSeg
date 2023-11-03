@@ -38,7 +38,7 @@ After downloading our FairSeg Dataset, please specify the root_dir to train the 
 ```bash
 ./train.sh
 ```
-After finishing the SAMed training, finetune the pretrained SAMed using our proposed Fair Error-Bound Scaling loss. Please specify the pretrained lora_ckpt and root_dir path. Then run command below: 
+After finishing the SAMed training, finetune the pretrained SAMed using our proposed Fair Error-Bound Scaling loss. Please specify the pretrained lora_ckpt and root_dir path. Then run the command below: 
 ```bash
 ./train_finetune.sh
 ```
@@ -46,7 +46,7 @@ After finishing the SAMed training, finetune the pretrained SAMed using our prop
 
 ## Testing
 
-For testing, please specify the root_dir, attribute, path of pretrained lora checkpoint, and OUTPUT_DIR. Then run this command.
+For testing, please specify the root_dir, attribute, path of pretrained lora checkpoint, and output_dir. Then run this command.
 ```bash
 ./test.sh
 ```
