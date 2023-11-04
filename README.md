@@ -11,7 +11,7 @@
 * :beers::beers: For more fairness datasets including 2D and 3D images of three different eye diseases, please check our dataset [**webpage**](https://ophai.hms.harvard.edu/datasets/)!
 
 ## Download FairSeg Dataset
-* Our FairSeg dataset can be downloaded via this [**link**]().
+* Our FairSeg dataset can be downloaded via this [**link**](https://drive.google.com/drive/folders/1tyhEhYHR88gFkVzLkJI4gE1BoOHoHdWZ?usp=sharing).
 
 ## Installation
 Linux (We tested our codes on Ubuntu 18.04)
