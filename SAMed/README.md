@@ -10,9 +10,6 @@
 ## Download FairSeg Dataset
 * Our FairSeg dataset can be downloaded via this [**link**](https://drive.google.com/drive/folders/1tyhEhYHR88gFkVzLkJI4gE1BoOHoHdWZ?usp=sharing).
 
-## Please refer to each of the folder for SAMed and TransUNet Versions of FairSeg
-
-## Below is an example to run SAMed
 ## Installation
 Linux (We tested our codes on Ubuntu 18.04)
 Anaconda
@@ -29,7 +26,7 @@ pip install -r requirements.txt
 
 ## Quick start
 
-Here are the instructions for SAMed: 
+Here are the instructions: 
 
 ## Training
 We use 2 NVIDIA A100 GPUs for training.
