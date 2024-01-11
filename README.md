@@ -6,9 +6,6 @@
 <img width="729" alt="Screenshot 2023-11-03 at 1 10 02 PM" src="https://github.com/Harvard-Ophthalmology-AI-Lab/FairSeg/assets/19222962/d3948ed8-1321-482f-8866-165d5a9ab2e4">
 
 
-## Fairness Datasets
-
-* :beers::beers: For more fairness datasets including 2D and 3D images of three different eye diseases, please check our dataset [**webpage**](https://ophai.hms.harvard.edu/datasets/)!
 
 ## Download FairSeg Dataset
 * Our FairSeg dataset can be downloaded via this [**link**](https://drive.google.com/drive/folders/1tyhEhYHR88gFkVzLkJI4gE1BoOHoHdWZ?usp=sharing).
@@ -50,6 +47,12 @@ For testing, please specify the root_dir, attribute, path of pretrained lora che
 ```bash
 ./test.sh
 ```
+
+
+## More Fairness Datasets
+
+* :beers::beers: For more fairness datasets including 2D and 3D images of three different eye diseases, please check our dataset [**webpage**](https://ophai.hms.harvard.edu/datasets/)!
+
 ## Acknowledgement & Citation
 
 
