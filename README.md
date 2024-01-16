@@ -1,5 +1,5 @@
 # FairSeg
-> [**ICLR'24**][**FairSeg: A Large-scale Medical Image Segmentation Dataset for Fairness Learning with Fair Error-Bound Scaling**](https://arxiv.org/pdf/2311.02189.pdf)
+> [**ICLR'24**] [**FairSeg: A Large-scale Medical Image Segmentation Dataset for Fairness Learning with Fair Error-Bound Scaling**](https://arxiv.org/pdf/2311.02189.pdf)
 >
 > by [Yu Tian*](https://yutianyt.com/), Min Shi*, [Yan Luo*](https://luoyan407.github.io/), Ava Kouhana, [Tobias Elze](http://www.tobias-elze.de/), and [Mengyu Wang](https://ophai.hms.harvard.edu/team/dr-wang/).
 >
