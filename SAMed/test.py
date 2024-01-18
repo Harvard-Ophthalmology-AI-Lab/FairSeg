@@ -142,16 +142,16 @@ def inference(args, multimask_output, db_config, model, test_save_path=None, no_
     logging.info(f'Cup Overall IoU: {cup_overall_jaccard:.4f}')
     
     es_cup_dice = equity_scaled_perf(dice_by_attr_cup, cup_overall_dice, no_of_attr)
-    es_std_cup_dice = equity_scaled_std_perf(dice_by_attr_cup, cup_overall_dice, no_of_attr)
+    # es_std_cup_dice = equity_scaled_std_perf(dice_by_attr_cup, cup_overall_dice, no_of_attr)
     es_cup_iou = equity_scaled_perf(jc_by_attr_cup, cup_overall_jaccard,no_of_attr)
-    es_std_cup_iou= equity_scaled_std_perf(jc_by_attr_cup, cup_overall_jaccard,no_of_attr)
+    # es_std_cup_iou= equity_scaled_std_perf(jc_by_attr_cup, cup_overall_jaccard,no_of_attr)
     
     logging.info(f'Cup Es-Dice: {es_cup_dice:.4f}')
     logging.info(f'Cup Es-IoU: {es_cup_iou:.4f}')
     
     
-    logging.info(f'Cup Es-Std-Dice: {es_std_cup_dice:.4f}')
-    logging.info(f'Cup Es-Std-IoU: {es_std_cup_iou:.4f}')
+    # logging.info(f'Cup Es-Std-Dice: {es_std_cup_dice:.4f}')
+    # logging.info(f'Cup Es-Std-IoU: {es_std_cup_iou:.4f}')
 
     for one_attr in range(no_of_attr):
         one_attr_dice_list = dice_by_attr_cup[one_attr]
@@ -182,15 +182,15 @@ def inference(args, multimask_output, db_config, model, test_save_path=None, no_
 
 
     es_rim_dice = equity_scaled_perf(dice_by_attr_rim, rim_overall_dice, no_of_attr)
-    es_std_rim_dice = equity_scaled_std_perf(dice_by_attr_rim, rim_overall_dice, no_of_attr)
+    # es_std_rim_dice = equity_scaled_std_perf(dice_by_attr_rim, rim_overall_dice, no_of_attr)
     es_rim_iou = equity_scaled_perf(jc_by_attr_rim, rim_overall_jaccard, no_of_attr)
-    es_std_rim_iou = equity_scaled_std_perf(jc_by_attr_rim, rim_overall_jaccard, no_of_attr)
+    # es_std_rim_iou = equity_scaled_std_perf(jc_by_attr_rim, rim_overall_jaccard, no_of_attr)
 
     logging.info(f'Rim Es-Dice: {es_rim_dice:.4f}')
     logging.info(f'Rim Es-IoU: {es_rim_iou:.4f}')
 
-    logging.info(f'Rim Es-Std-Dice: {es_std_rim_dice:.4f}')
-    logging.info(f'Rim Es-Std-IoU: {es_std_rim_iou:.4f}')
+    # logging.info(f'Rim Es-Std-Dice: {es_std_rim_dice:.4f}')
+    # logging.info(f'Rim Es-Std-IoU: {es_std_rim_iou:.4f}')
 
     for one_attr in range(no_of_attr):
         one_attr_dice_list = dice_by_attr_rim[one_attr]
