@@ -10,6 +10,10 @@
 ## Download FairSeg Dataset
 * Our FairSeg dataset can be downloaded via this [**link**](https://drive.google.com/drive/folders/1tyhEhYHR88gFkVzLkJI4gE1BoOHoHdWZ?usp=sharing).
 
+
+## Download SAM Pretrained Checkpoint
+* Please download the pretrained [SAM model](https://drive.google.com/file/d/1_oCdoEEu3mNhRfFxeWyRerOKt8OEUvcg/view?usp=share_link) (provided by the original repository of SAM).
+  
 ## Installation
 Linux (We tested our codes on Ubuntu 18.04)
 Anaconda
@@ -31,7 +35,7 @@ Here are the instructions:
 ## Training
 We use 2 NVIDIA A100 GPUs for training.
 
-After downloading our FairSeg Dataset, please specify the root_dir to train the SAMed and run this command.
+After downloading our FairSeg Dataset and the SAM pre-trained weights, please specify the root_dir to train the SAMed and run this command.
 ```bash
 ./train.sh
 ```
