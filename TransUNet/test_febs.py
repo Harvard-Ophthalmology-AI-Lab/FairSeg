@@ -10,10 +10,8 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 from datasets.dataset_fairseg import FairSeg_dataset, TestGenerator
-from utils import test_single_volume, test_single_image, equity_scaled_perf, equity_scaled_std_perf
 from networks.vit_seg_modeling import VisionTransformer as ViT_seg
 from networks.vit_seg_modeling import CONFIGS as CONFIGS_ViT_seg
-from torchvision import transforms
 from inference import inference
 
 parser = argparse.ArgumentParser()

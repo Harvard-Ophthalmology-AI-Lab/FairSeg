@@ -192,30 +192,31 @@ def inference(args, model, db_config, test_save_path=None, no_of_attr=3):
     logging.info(f'Cup Overall ASD: {cup_overall_asd:.4f}')
     
     es_cup_dice = equity_scaled_perf(dice_by_attr_cup, cup_overall_dice, no_of_attr)
-    es_std_cup_dice = equity_scaled_std_perf(dice_by_attr_cup, cup_overall_dice, no_of_attr)
+    # es_std_cup_dice = equity_scaled_std_perf(dice_by_attr_cup, cup_overall_dice, no_of_attr)
     es_cup_iou = equity_scaled_perf(jc_by_attr_cup, cup_overall_jaccard,no_of_attr)
-    es_std_cup_iou= equity_scaled_std_perf(jc_by_attr_cup, cup_overall_jaccard,no_of_attr)
+    # es_std_cup_iou= equity_scaled_std_perf(jc_by_attr_cup, cup_overall_jaccard,no_of_attr)
     
     logging.info(f'Cup Es-Dice: {es_cup_dice:.4f}')
     logging.info(f'Cup Es-IoU: {es_cup_iou:.4f}')
     
-    logging.info(f'Cup Es-Std-Dice: {es_std_cup_dice:.4f}')
-    logging.info(f'Cup Es-Std-IoU: {es_std_cup_iou:.4f}')
+    # logging.info(f'Cup Es-Std-Dice: {es_std_cup_dice:.4f}')
+    # logging.info(f'Cup Es-Std-IoU: {es_std_cup_iou:.4f}')
 
     
     pred_cup_array = np.concatenate(all_preds_cup).flatten()
     gts_cup_array = np.concatenate(all_gts_cup).flatten()
     attr_cup_array = np.concatenate(all_attrs_cup).flatten()
     
-    dpd_cup = demographic_parity_difference(gts_cup_array,
-                                    pred_cup_array,
-                                    sensitive_features=attr_cup_array)
+    # dpd_cup = demographic_parity_difference(gts_cup_array,
+    #                                 pred_cup_array,
+    #                                 sensitive_features=attr_cup_array)
     
-    eod_cup = equalized_odds_difference(gts_cup_array,
-                                   pred_cup_array,
-                                    sensitive_features=attr_cup_array)
-    logging.info(f'Cup DPD: {dpd_cup:.4f}')
-    logging.info(f'Cup DEodds: {eod_cup:.4f}')
+    # eod_cup = equalized_odds_difference(gts_cup_array,
+    #                                pred_cup_array,
+    #                                 sensitive_features=attr_cup_array)
+    # logging.info(f'Cup DPD: {dpd_cup:.4f}')
+    # logging.info(f'Cup DEodds: {eod_cup:.4f}')
+
     # dpd_rim, eod_rim, dpd_cup, eod_cup
     for one_attr in range(no_of_attr):
         one_attr_dice_list = dice_by_attr_cup[one_attr]
@@ -243,30 +244,30 @@ def inference(args, model, db_config, test_save_path=None, no_of_attr=3):
     logging.info(f'Rim Overall ASD: {rim_overall_asd:.4f}')
 
     es_rim_dice = equity_scaled_perf(dice_by_attr_rim, rim_overall_dice, no_of_attr)
-    es_std_rim_dice = equity_scaled_std_perf(dice_by_attr_rim, rim_overall_dice, no_of_attr)
+    # es_std_rim_dice = equity_scaled_std_perf(dice_by_attr_rim, rim_overall_dice, no_of_attr)
     es_rim_iou = equity_scaled_perf(jc_by_attr_rim, rim_overall_jaccard, no_of_attr)
-    es_std_rim_iou = equity_scaled_std_perf(jc_by_attr_rim, rim_overall_jaccard, no_of_attr)
+    # es_std_rim_iou = equity_scaled_std_perf(jc_by_attr_rim, rim_overall_jaccard, no_of_attr)
 
     logging.info(f'Rim Es-Dice: {es_rim_dice:.4f}')
     logging.info(f'Rim Es-IoU: {es_rim_iou:.4f}')
 
-    logging.info(f'Rim Es-Std-Dice: {es_std_rim_dice:.4f}')
-    logging.info(f'Rim Es-Std-IoU: {es_std_rim_iou:.4f}')
+    # logging.info(f'Rim Es-Std-Dice: {es_std_rim_dice:.4f}')
+    # logging.info(f'Rim Es-Std-IoU: {es_std_rim_iou:.4f}')
 
     pred_rim_array = np.concatenate(all_preds_rim).flatten()
     gts_rim_array = np.concatenate(all_gts_rim).flatten()
     attr_rim_array = np.concatenate(all_attrs_rim).flatten()
     
-    dpd_rim = demographic_parity_difference(gts_rim_array,
-                                    pred_rim_array,
-                                    sensitive_features=attr_rim_array)
+    # dpd_rim = demographic_parity_difference(gts_rim_array,
+    #                                 pred_rim_array,
+    #                                 sensitive_features=attr_rim_array)
         
-    eod_rim = equalized_odds_difference(gts_rim_array,
-                                    pred_rim_array,
-                                    sensitive_features=attr_rim_array)
+    # eod_rim = equalized_odds_difference(gts_rim_array,
+    #                                 pred_rim_array,
+    #                                 sensitive_features=attr_rim_array)
     
-    logging.info(f'Rim DPD: {dpd_rim:.4f}')
-    logging.info(f'Rim DEodds: {eod_rim:.4f}')
+    # logging.info(f'Rim DPD: {dpd_rim:.4f}')
+    # logging.info(f'Rim DEodds: {eod_rim:.4f}')
     # dpd_rim, eod_rim, dpd_cup, eod_cup
 
     for one_attr in range(no_of_attr):

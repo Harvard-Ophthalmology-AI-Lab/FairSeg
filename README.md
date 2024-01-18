@@ -9,7 +9,7 @@
 ## Download FairSeg Dataset
 * Our FairSeg dataset can be downloaded via this [**link**](https://drive.google.com/drive/folders/1tyhEhYHR88gFkVzLkJI4gE1BoOHoHdWZ?usp=sharing).
 
-## Please refer to each of the folders for SAMed and TransUNet Versions of FairSeg
+* Please refer to each of the folders for FairSeg with **SAMed** and **TransUNet**, respectively. 
 
 
 ## More Fairness Datasets
