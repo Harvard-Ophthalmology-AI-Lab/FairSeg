@@ -6,8 +6,8 @@
 <img width="729" alt="Screenshot 2023-11-03 at 1 10 02 PM" src="https://github.com/Harvard-Ophthalmology-AI-Lab/FairSeg/assets/19222962/d3948ed8-1321-482f-8866-165d5a9ab2e4">
 
 
-## Download FairSeg Dataset
-* Our Harvard-FairSeg dataset can be downloaded via this [**link**](https://drive.google.com/drive/folders/1tyhEhYHR88gFkVzLkJI4gE1BoOHoHdWZ?usp=sharing).
+## Download Harvard-FairSeg Dataset
+* Our Harvard-FairSeg dataset can be downloaded via this [**link**](https://ophai.hms.harvard.edu/datasets/harvard-fairseg10k/).
 
 * Please refer to each of the folders for FairSeg with **SAMed** and **TransUNet**, respectively. 
 
