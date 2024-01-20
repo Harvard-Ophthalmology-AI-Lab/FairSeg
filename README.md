@@ -9,7 +9,7 @@
 ## Download Harvard-FairSeg Dataset
 * Our Harvard-FairSeg dataset can be downloaded via this [**link**](https://ophai.hms.harvard.edu/datasets/harvard-fairseg10k/).
 
-Alternatively, you can also use this [**Google Drive link**](https://drive.google.com/drive/u/1/folders/1tyhEhYHR88gFkVzLkJI4gE1BoOHoHdWZ) to directly download our Harvard-FairSeg dataset.  
+* Alternatively, you could also use this [**Google Drive link**](https://drive.google.com/drive/u/1/folders/1tyhEhYHR88gFkVzLkJI4gE1BoOHoHdWZ) to directly download our Harvard-FairSeg dataset.  
 
 * Please refer to each of the folders for FairSeg with **SAMed** and **TransUNet**, respectively. 
 
