@@ -48,10 +48,9 @@ marriagestatus: 0 - Married, 1 - Single, 2 - Divorced, 3 - Widowed, 4 - Leg-Sep
 If you find this repo useful for your research, please consider citing our paper:
 
 ```bibtex
-@misc{tian2023fairseg,
+@inproceedings{tian2024fairseg,
       title={Harvard FairSeg: A Large-Scale Medical Image Segmentation Dataset for Fairness Learning Using Segment Anything Model with Fair Error-Bound Scaling}, 
-      author={Yu Tian, Min Shi, Yan Luo, Ava Kouhana, Tobias Elze, Mengyu Wang}
-      year={2023},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      author={Yu Tian, Min Shi, Yan Luo, Ava Kouhana, Tobias Elze, Mengyu Wang},
+      booktitle={International Conference on Learning Representations (ICLR)},
+      year={2024},
 }
