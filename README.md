@@ -6,6 +6,7 @@
 <img width="1081" alt="Screenshot 2024-01-20 at 9 24 39 AM" src="https://github.com/Harvard-Ophthalmology-AI-Lab/Harvard-FairSeg/assets/19222962/176cd0d2-f3ec-4ac2-a0cb-65d66574f25b">
 
 
+
 ## Download Harvard-FairSeg Dataset
 * Our Harvard-FairSeg dataset can be downloaded via this [**link**](https://ophai.hms.harvard.edu/datasets/harvard-fairseg10k/).
 
@@ -13,6 +14,9 @@
 
 * Please refer to each of the folders for FairSeg with **SAMed** and **TransUNet**, respectively. 
 
+* [CVer中文讲解](https://zhuanlan.zhihu.com/p/680169908)
+
+  
 # Dataset Description
 
 This dataset can only be used for non-commercial research purposes. At no time, the dataset shall be used for clinical decisions or patient care. The data use license is [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
