@@ -49,7 +49,7 @@ maritalstatus: 0 - Married or Partnered, 1 - Single, 2 - Divorced, 3 - Widowed, 
 ## Acknowledgement & Citation
 
 
-If you find this repo useful for your research, please consider citing our paper:
+If you find this repository useful for your research, please consider citing our paper:
 
 ```bibtex
 @inproceedings{tian2024fairseg,
