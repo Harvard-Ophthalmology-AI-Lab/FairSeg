@@ -21,7 +21,7 @@
 
 This dataset can only be used for non-commercial research purposes. At no time, the dataset shall be used for clinical decisions or patient care. The data use license is [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
-The dataset containing 10,000 patients includes 10,000 Scanning laser ophthalmoscopy (SLO) fundus images. The disc and cup masks, patient age, gender, race, ethnicity, language, and marital status information are also included in the data.
+The dataset containing 10,000 patients includes 10,000 Scanning laser ophthalmoscopy (SLO) fundus images. The disc and cup masks, patient age, gender, race, ethnicity, language, and marital status information are also included in the data. Under the folder "ReadMe", the file "data_summary.csv" provides an overview of our data.
 
 10,000 SLO fundus images with pixel-wise disc and cup masks are in the Google Drive folder:
 data_00001.npz
