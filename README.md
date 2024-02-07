@@ -34,8 +34,8 @@ NPZ files have the following keys:
 slo_fundus: Scanning laser ophthalmoscopy (SLO) fundus image
 disc_cup_mask: disc and cup masks for the corresponding SLO fundus image
 age: patient's age
-race: 0 - Asian, 1 - Black, 2 - White
 gender: 0 - Female, 1 - Male
+race: 0 - Asian, 1 - Black, 2 - White
 ethnicity: 0 - Non-Hispanic, 1 - Hispanic
 language: 0 - English, 1 - Spanish, 2 - Others
 maritalstatus: 0 - Married or Partnered, 1 - Single, 2 - Divorced, 3 - Widowed, 4 - Legally Separated
