@@ -21,9 +21,9 @@
 
 This dataset can only be used for non-commercial research purposes. At no time, the dataset shall be used for clinical decisions or patient care. The data use license is [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
-The dataset contains 10,000 patients includes 10,000 SLO fundus images. The cup-disc mask, patient age, sex, race, language, marital status, and ethnicity information are also included in the data.
+The dataset containing 10,000 patients includes 10,000 Scanning laser ophthalmoscopy (SLO) fundus images. The disc and cup masks, patient age, gender, race, ethnicity, language, and marital status information are also included in the data.
 
-10,000 SLO fundus images with pixel-wise cup-disc masks are in the Google Drive folder:
+10,000 SLO fundus images with pixel-wise disc and cup masks are in the Google Drive folder:
 data_00001.npz
 data_00002.npz
 ...
@@ -31,14 +31,14 @@ data_10000.npz
 
 NPZ files have the following keys:
 ```    
-fundus_slo: SLO fundus image
-disc_cup_borders: cup-disc mask for the corresponding SLO fundus image
+slo_fundus: Scanning laser ophthalmoscopy (SLO) fundus image
+disc_cup_mask: disc and cup masks for the corresponding SLO fundus image
 age: patient's age
 race: 0 - Asian, 1 - Black, 2 - White
 gender: 0 - Female, 1 - Male
 ethnicity: 0 - Non-Hispanic, 1 - Hispanic
 language: 0 - English, 1 - Spanish, 2 - Others
-marriagestatus: 0 - Married, 1 - Single, 2 - Divorced, 3 - Widowed, 4 - Leg-Sep
+maritalstatus: 0 - Married or Partnered, 1 - Single, 2 - Divorced, 3 - Widowed, 4 - Legally Separated
 ```
 
 
