@@ -140,7 +140,7 @@ class TestGenerator(object):
         sample = {'image': image, 'label': label.long(), 'low_res_label': low_res_label.long(), 'attr_label': attr_label, 'pid': pid}
         return sample
 
-attr_to_race = {2: 0, 3: 1, 7:2}
+# attr_to_race = {2: 0, 3: 1, 7:2}
 attr_to_language = {0: 0, 1: 1, 2:2, -1:-1}
 
 class FairSeg_dataset(Dataset):
@@ -200,7 +200,6 @@ class FairSeg_dataset(Dataset):
         attr_label = data[self.attr_label].item()
        
         if self.attr_label == "age":
-            attr_label=attr_label/365
             if attr_label < 60:
                 attr_label = 0
             else:
@@ -208,8 +207,6 @@ class FairSeg_dataset(Dataset):
         elif self.attr_label == "maritalstatus":
             if attr_label != 0 and attr_label != -1: 
                 attr_label = 1
-        elif self.attr_label == 'race':
-            attr_label = attr_to_race[attr_label]
         elif self.attr_label == 'language':
             attr_label = attr_to_language[attr_label]
         
