@@ -55,7 +55,7 @@ If you find this repository useful for your research, please consider citing our
 
 ```bibtex
 @inproceedings{tian2024fairseg,
-      title={Harvard FairSeg: A Large-Scale Medical Image Segmentation Dataset for Fairness Learning Using Segment Anything Model with Fair Error-Bound Scaling}, 
+      title={FairSeg: A Large-Scale Medical Image Segmentation Dataset for Fairness Learning Using Segment Anything Model with Fair Error-Bound Scaling}, 
       author={Yu Tian, Min Shi, Yan Luo, Ava Kouhana, Tobias Elze, Mengyu Wang},
       booktitle={International Conference on Learning Representations (ICLR)},
       year={2024},

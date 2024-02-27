@@ -63,10 +63,9 @@ For testing, please specify the root_dir, attribute, path of pretrained lora che
 If you find this repo useful for your research, please consider citing our paper:
 
 ```bibtex
-@misc{tian2023fairseg,
-      title={FairSeg: A Large-scale Medical Image Segmentation Dataset for Fairness Learning with Fair Error-Bound Scaling}, 
-      author={Yu Tian, Min Shi, Yan Luo, Ava Kouhana, Tobias Elze, Mengyu Wang}
-      year={2023},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{tian2024fairseg,
+      title={FairSeg: A Large-Scale Medical Image Segmentation Dataset for Fairness Learning Using Segment Anything Model with Fair Error-Bound Scaling}, 
+      author={Yu Tian, Min Shi, Yan Luo, Ava Kouhana, Tobias Elze, Mengyu Wang},
+      booktitle={International Conference on Learning Representations (ICLR)},
+      year={2024},
 }
