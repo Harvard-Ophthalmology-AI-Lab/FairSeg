@@ -53,7 +53,7 @@ maritalstatus: 0 - Married or Partnered, 1 - Single, 2 - Divorced, 3 - Widowed, 
 
 If you find this repository useful for your research, please consider citing our [paper](https://arxiv.org/pdf/2311.02189):
 
-```
+```bibtex
 @inproceedings{tianfairseg,
   title={FairSeg: A Large-Scale Medical Image Segmentation Dataset for Fairness Learning Using Segment Anything Model with Fair Error-Bound Scaling},
   author={Tian, Yu and Shi, Min and Luo, Yan and Kouhana, Ava and Elze, Tobias and Wang, Mengyu},
