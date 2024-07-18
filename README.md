@@ -48,7 +48,7 @@ maritalstatus: 0 - Married or Partnered, 1 - Single, 2 - Divorced, 3 - Widowed, 
 
 * :beers::beers: For more fairness datasets including 2D and 3D images of three different eye diseases, please check our dataset [**webpage**](https://ophai.hms.harvard.edu/datasets/)!
 
-## Acknowledgement & Citation
+## Acknowledgement and Citation
 
 
 If you find this repository useful for your research, please consider citing our [paper](https://arxiv.org/pdf/2311.02189):
