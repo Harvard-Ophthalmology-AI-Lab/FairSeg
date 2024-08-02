@@ -5,15 +5,16 @@
 >
 <img width="1081" alt="Screenshot 2024-01-20 at 9 24 39 AM" src="https://github.com/Harvard-Ophthalmology-AI-Lab/Harvard-FairSeg/assets/19222962/176cd0d2-f3ec-4ac2-a0cb-65d66574f25b">
 
-Note that, the modifier word “Harvard” only indicates that our dataset is from the Department of Ophthalmology of Harvard Medical School and does not imply an endorsement, sponsorship, or assumption of responsibility by either Harvard University or Harvard Medical School as a legal identity.
 
 ## Download Harvard-FairSeg Dataset
 
 * The Harvard-FairSeg dataset can be accessed via this [link](https://drive.google.com/drive/u/1/folders/1tyhEhYHR88gFkVzLkJI4gE1BoOHoHdWZ). If you have any questions, please email <harvardophai@gmail.com>.
 
-* If you cannot directly download the Harvard-FairSeg dataset, please request access in the above Google Drive link, we will make sure to grant you access within 3-5 days. 
+* If you cannot directly download the Harvard-FairSeg dataset, please request access in the above Google Drive link, we will make sure to grant you access within 3-5 days.
 
-* Please refer to each of the folders for FairSeg with **SAMed** and **TransUNet**, respectively. 
+* Please refer to each of the folders for FairSeg with **SAMed** and **TransUNet**, respectively.
+
+* Note that, the modifier word “Harvard” only indicates that our dataset is from the Department of Ophthalmology of Harvard Medical School and does not imply an endorsement, sponsorship, or assumption of responsibility by either Harvard University or Harvard Medical School as a legal identity.
 
 * [CVer中文讲解](https://zhuanlan.zhihu.com/p/680169908)
 
