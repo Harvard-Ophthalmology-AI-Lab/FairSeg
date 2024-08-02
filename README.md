@@ -42,11 +42,6 @@ language: 0 - English, 1 - Spanish, 2 - Others, -1 - Unknown
 maritalstatus: 0 - Married or Partnered, 1 - Single, 2 - Divorced, 3 - Widowed, 4 - Legally Separated, -1 - Unknown
 ```
 
-
-## More Fairness Datasets
-
-* :beers::beers: For more fairness datasets including 2D and 3D images of three different eye diseases, please check our dataset [**webpage**](https://ophai.hms.harvard.edu/datasets/)!
-
 ## Acknowledgement and Citation
 
 
