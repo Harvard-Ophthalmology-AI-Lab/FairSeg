@@ -8,9 +8,8 @@
 Note that, the modifier word “Harvard” only indicates that our dataset is from the Department of Ophthalmology of Harvard Medical School and does not imply an endorsement, sponsorship, or assumption of responsibility by either Harvard University or Harvard Medical School as a legal identity.
 
 ## Download Harvard-FairSeg Dataset
-* Our Harvard-FairSeg dataset can refer to the dataset page of our lab website via this [**link**](https://ophai.hms.harvard.edu/datasets/harvard-fairseg10k/).
 
-* Alternatively, you could also use this [**Google Drive link**](https://drive.google.com/drive/u/1/folders/1tyhEhYHR88gFkVzLkJI4gE1BoOHoHdWZ) to directly download our Harvard-FairSeg dataset.
+* Here is the data download link for [**Harvard-FairSeg**](https://drive.google.com/drive/u/1/folders/1tyhEhYHR88gFkVzLkJI4gE1BoOHoHdWZ).
 
 * If you cannot directly download the Harvard-FairSeg dataset, please request access in the above Google Drive link, we will make sure to grant you access within 3-5 days. 
 
