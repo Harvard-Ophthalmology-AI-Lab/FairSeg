@@ -9,7 +9,7 @@ Note that, the modifier word “Harvard” only indicates that our dataset is fr
 
 ## Download Harvard-FairSeg Dataset
 
-* Here is the data download link for [**Harvard-FairSeg**](https://drive.google.com/drive/u/1/folders/1tyhEhYHR88gFkVzLkJI4gE1BoOHoHdWZ). If you have any questions about this dataset, please email [harvardophai@gmail.com](harvardophai@gmail.com).
+* Here is the data download link for [**Harvard-FairSeg**](https://drive.google.com/drive/u/1/folders/1tyhEhYHR88gFkVzLkJI4gE1BoOHoHdWZ). If you have any questions about this dataset, please email <harvardophai@gmail.com>.
 
 * If you cannot directly download the Harvard-FairSeg dataset, please request access in the above Google Drive link, we will make sure to grant you access within 3-5 days. 
 
