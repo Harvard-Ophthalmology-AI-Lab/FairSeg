@@ -1,5 +1,5 @@
 # FairSeg
-> [**ICLR 24**] [**FairSeg: A Large-Scale Medical Image Segmentation Dataset for Fairness Learning Using Segment Anything Model with Fair Error-Bound Scaling**](https://arxiv.org/pdf/2311.02189.pdf)
+> [**ICLR 24**] [**FairSeg: A Large-Scale Medical Image Segmentation Dataset for Fairness Learning Using Segment Anything Model with Fair Error-Bound Scaling**](https://openreview.net/pdf?id=qNrJJZAKI3)
 >
 > by [Yu Tian*](https://yutianyt.com/), [Min Shi*](https://shiminxst.github.io/index.html), [Yan Luo*](https://luoyan407.github.io/), Ava Kouhana, [Tobias Elze](http://www.tobias-elze.de/), and [Mengyu Wang](https://ophai.hms.harvard.edu/team/dr-wang/).
 >
@@ -51,7 +51,7 @@ maritalstatus: 0 - Married or Partnered, 1 - Single, 2 - Divorced, 3 - Widowed, 
 ## Acknowledgement and Citation
 
 
-If you find this repository useful for your research, please consider citing our [paper](https://arxiv.org/pdf/2311.02189):
+If you find this repository useful for your research, please consider citing our [paper](https://openreview.net/pdf?id=qNrJJZAKI3):
 
 ```bibtex
 @inproceedings{tianfairseg,
