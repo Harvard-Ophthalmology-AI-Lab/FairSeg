@@ -8,7 +8,7 @@
 
 ## Download Harvard-FairSeg Dataset
 
-* The Harvard-FairSeg dataset can be accessed via this [link](https://drive.google.com/drive/u/1/folders/1tyhEhYHR88gFkVzLkJI4gE1BoOHoHdWZ). If you have any questions, please email <harvardophai@gmail.com>.
+* The Harvard-FairSeg dataset can be accessed via this [link](https://drive.google.com/drive/u/1/folders/1tyhEhYHR88gFkVzLkJI4gE1BoOHoHdWZ). If you have any questions, please email <harvardophai@gmail.com> and <harvardairobotics@gmail.com>.
 
 * If you cannot directly download the Harvard-FairSeg dataset, please request access in the above Google Drive link, we will make sure to grant you access within 3-5 days.
 
