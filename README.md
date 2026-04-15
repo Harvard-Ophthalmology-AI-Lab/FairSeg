@@ -1,14 +1,14 @@
 # FairSeg
 > [**ICLR 24**] [**FairSeg: A Large-Scale Medical Image Segmentation Dataset for Fairness Learning Using Segment Anything Model with Fair Error-Bound Scaling**](https://openreview.net/pdf?id=qNrJJZAKI3)
 >
-> by [Yu Tian*](https://yutianyt.com/), [Min Shi*](https://shiminxst.github.io/index.html), [Yan Luo*](https://luoyan407.github.io/), Ava Kouhana, [Tobias Elze](http://www.tobias-elze.de/), and [Mengyu Wang](https://ophai.hms.harvard.edu/team/dr-wang/).
+> by [Yu Tian*](https://yutianyt.com/), [Min Shi*](https://shiminxst.github.io/index.html), [Yan Luo*](https://luoyan407.github.io/), Ava Kouhana, [Tobias Elze](http://www.tobias-elze.de/), and [Mengyu Wang](https://wang.hms.harvard.edu/team/dr-wang/).
 >
 <img width="1081" alt="Screenshot 2024-01-20 at 9 24 39 AM" src="https://github.com/Harvard-Ophthalmology-AI-Lab/Harvard-FairSeg/assets/19222962/176cd0d2-f3ec-4ac2-a0cb-65d66574f25b">
 
 
 ## Download Harvard-FairSeg Dataset
 
-* The Harvard-FairSeg dataset can be accessed via this [link](https://drive.google.com/drive/u/1/folders/1tyhEhYHR88gFkVzLkJI4gE1BoOHoHdWZ). If you have any questions, please email <harvardophai@gmail.com> and <harvardairobotics@gmail.com>.
+* The Harvard-FairSeg dataset can be accessed via this [link](https://huggingface.co/datasets/harvardairobotics/FairSeg). If you have any questions, please email <harvardophai@gmail.com> and <harvardairobotics@gmail.com>.
 
 * If you cannot directly download the Harvard-FairSeg dataset, please request access in the above Google Drive link, we will make sure to grant you access within 3-5 days.
 
